@@ -76,5 +76,3 @@ if maximum == 0:
 else:
     # Printing the maximum intensity
     print "The maximum intensity of the earthquake occured within 100 miles of Menlo Park office is", maximum, "and is at", max_location, "on", max_datetime
-
-fh.close()
