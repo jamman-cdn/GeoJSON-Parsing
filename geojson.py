@@ -41,11 +41,6 @@ fh = urllib2.urlopen(url)
 # Loading data into JSON decoder
 data = json.load(fh)
 
-"""print data['features'][0]['properties']['place']
-print data['features'][0]['properties']['mag']
-print data['features'][0]['geometry']['coordinates']
-print data['features'][0]['properties']['time']"""
-
 # 7 Days ago, the date was delta
 delta = date.today() - timedelta(days=int(daysback))
 
